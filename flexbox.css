@@ -1,0 +1,54 @@
+html, * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 290px;
+	height: 290px;
+}
+
+.flex-container {
+	height: 1000px;
+	border: 2px solid black;
+	margin: 50px 0px 50px 0px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.flex-container2 .finn, .flex-container2 .jake {
+	border: 2px solid black;
+}
+
+.flex-container2 {
+	height: 500px;
+	border: 3px solid blue;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	background-color: lightblue;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+
+.flex-container3 {
+	height: 295px;
+	border: 3px solid red;
+	display: flex;
+	margin-bottom: 50px;
+	background-color: pink;
+}
+
+.flex-container4 {
+	height: 500px;
+	border: 3px solid green;
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: lightgreen;
+}
